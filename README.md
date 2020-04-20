@@ -1,12 +1,12 @@
 # Docker compose makefile
-[![Build Status](https://travis-ci.org/krom/docker-compose-makefile.svg?branch=master)](https://travis-ci.org/krom/docker-compose-makefile)
-[![Release](https://img.shields.io/github/release/krom/docker-compose-makefile.svg)](https://github.com/krom/docker-compose-makefile/releases/latest)
-[![Commits since last release](https://img.shields.io/github/commits-since/krom/docker-compose-makefile/latest.svg)](https://github.com/krom/docker-compose-makefile/commits/master)
-[![Github All Releases](https://img.shields.io/github/downloads/krom/docker-compose-makefile/total.svg)](https://github.com/krom/docker-compose-makefile)
-[![GitHub issues](https://img.shields.io/github/issues/krom/docker-compose-makefile.svg)](https://github.com/krom/docker-compose-makefile/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/krom/docker-compose-makefile.svg)](https://github.com/krom/docker-compose-makefile/pulls)
-[![license](https://img.shields.io/github/license/krom/docker-compose-makefile.svg)](https://github.com/krom/docker-compose-makefile/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/krom/docker-compose-makefile.svg?style=social&label=Stars)](https://github.com/krom/docker-compose-makefile/stargazers)
+[![Build Status](https://travis-ci.org/dgarana/docker-compose-makefile.svg?branch=master)](https://travis-ci.org/dgarana/docker-compose-makefile)
+[![Release](https://img.shields.io/github/release/dgarana/docker-compose-makefile.svg)](https://github.com/dgarana/docker-compose-makefile/releases/latest)
+[![Commits since last release](https://img.shields.io/github/commits-since/dgarana/docker-compose-makefile/latest.svg)](https://github.com/dgarana/docker-compose-makefile/commits/master)
+[![Github All Releases](https://img.shields.io/github/downloads/dgarana/docker-compose-makefile/total.svg)](https://github.com/dgarana/docker-compose-makefile)
+[![GitHub issues](https://img.shields.io/github/issues/dgarana/docker-compose-makefile.svg)](https://github.com/dgarana/docker-compose-makefile/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/dgarana/docker-compose-makefile.svg)](https://github.com/dgarana/docker-compose-makefile/pulls)
+[![license](https://img.shields.io/github/license/dgarana/docker-compose-makefile.svg)](https://github.com/dgarana/docker-compose-makefile/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dgarana/docker-compose-makefile.svg?style=social&label=Stars)](https://github.com/dgarana/docker-compose-makefile/stargazers)
 
 Template and lib for docker-compose
 
@@ -24,12 +24,12 @@ make mk-upgrade
 ```
 
 ## USAGE
-![Screen](https://raw.githubusercontent.com/krom/docker-compose-makefile/master/docs/screencast.gif)
+![Screen](https://raw.githubusercontent.com/dgarana/docker-compose-makefile/master/docs/screencast.gif)
 
-**Common** (see [samples](https://github.com/krom/docker-compose-makefile/tree/master/samples))
+**Common** (see [samples](https://github.com/dgarana/docker-compose-makefile/tree/master/samples))
 - `make console` - open container's console
 
-**From Makefile.minimal.mk** (see [samples](https://github.com/krom/docker-compose-makefile/tree/master/samples))
+**From Makefile.minimal.mk** (see [samples](https://github.com/dgarana/docker-compose-makefile/tree/master/samples))
 - `make start` - start all containers
 - `make start` c=hello - start container hello
 - `make stop` - stop all containers
@@ -75,7 +75,7 @@ logs: ## Show logs for all or c=<name> containers
 clean: confirm ## Clean all data
 	@$(DOCKER_COMPOSE) -f $(DOCKER_COMPOSE_FILE) down
 ```
-You may see samples [here](https://github.com/krom/docker-compose-makefile/tree/master/samples)
+You may see samples [here](https://github.com/dgarana/docker-compose-makefile/tree/master/samples)
 
 ## CUSTOMIZATION
 You can create _.make.env_ file in directory with Makefile or **current** directory
