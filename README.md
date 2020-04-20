@@ -14,7 +14,7 @@ Template and lib for docker-compose
 ### INSTALLATION
 To install mk-lib run command
 ```bash
-curl -sL https://git.io/vh4Gn | sh
+curl -sL https://git.io/JfTBa | sh
 ```
 
 ### UPGRADE
